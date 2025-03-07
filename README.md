@@ -10,8 +10,13 @@ $$
 
 ## Features
 
-- **Pepin Test**: Using group's theory discover if a Fermat Number is prime. A Fermat Number \( F_n = 2^{2^n} + 1 \) is prime if and only if \( 5^{\frac{F_n - 1}{2}} \equiv -1 \pmod{F_n} \).
-- **Optional Output**: Supports a flag to print the corresponding Fermat number and \( k \cdot 2^l + 1 \).
+- **Pepin Test**: Using group theory to discover if a Fermat Number is prime. A Fermat Number is prime if and only if
+  
+$$
+5^{\frac{F_n - 1}{2}} \equiv -1 \pmod{F_n}
+$$
+- **Optional Output**: Supports a flag to print the corresponding Fermat number.
+
 
 ## Prerequisites
 
